@@ -6,8 +6,8 @@ const steps = [
   'Add one',
   'Mark completed',
   'Add another',
-  'Show Active',
-  'Show Completed',
+  'Filter Active',
+  'Filter Completed',
   'Delete completed',
 ];
 
@@ -241,7 +241,7 @@ async function flashLocator(target: Locator) {
 
 test('Todo UI Demo Flow - Product Timeline Guide', async ({ page }) => {
   const item1 = 'Demo item 1 - to be completed and deleted';
-  const item2 = 'Demo item 2 - to remain active';
+  const item2 = 'Demo item 2 - to filter active';
 
   await page.goto('https://demo.playwright.dev/todomvc');
   await page.evaluate(() => localStorage.clear());
