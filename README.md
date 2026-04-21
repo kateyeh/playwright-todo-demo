@@ -17,8 +17,8 @@
 - Step 1 Add
 - Step 2 Mark complete
 - Step 3 Add another
-- Step 4 Show Active
-- Step 5 Show Completed
+- Step 4 Filter Active
+- Step 5 Filter Completed
 - Step 6 Delete completed
 
 ## 使用技術
